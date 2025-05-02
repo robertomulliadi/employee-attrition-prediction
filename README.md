@@ -19,23 +19,7 @@ This project explores machine learning techniques to predict employee attrition 
 
 ---
 
-## ✅ Best Model Performance
-- **Model:** Random Forest (tuned)
-- **Recall (leavers):** 0.49
-- **Precision (leavers):** 0.43
-- **F1-score (leavers):** 0.46
-- **ROC-AUC:** 0.77
-
-These results indicate a good balance between identifying employees likely to leave and minimizing false positives, particularly given the class imbalance (~16% attrition rate).
-
----
-
 ## 💡 SHAP Insights
 - **Overtime** is the strongest predictor of attrition.
 - **Low stock option level, income, and satisfaction** increase risk.
 - SHAP provided **transparent, feature-level explanations** for both overall trends and individual cases.
-
----
-
-## ⚠️ Why Stacking Was Not Used
-Stacking models were explored but ultimately excluded due to convergence and stability issues during training, with minimal expected performance gain.
